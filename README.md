@@ -1,6 +1,6 @@
 # Hi. I'm Zeta.
 
-Engineer who thinks in equations.
+Synchrotron science and materials engineering.
 
 ![BLAK'AT](https://makeagif.com/gif/crystal-castles-kept-U5flek)
 
@@ -13,9 +13,9 @@ from dataclasses import dataclass, field
 class Zeta:
     job: str = "Engineer"
     pronouns: str = "He/Him"
-    passion: str = "Physics"
+    passion: str = "Synchrotron science"
     favorite_fields: list = field(default_factory=lambda: [
-        "Classical Mechanics", "Electromagnetism", "Quantum Mechanics"
+        "X-ray Diffraction", "Spectroscopy", "Condensed Matter", "Materials Science"
     ])
     main_tools: list = field(default_factory=lambda: [
         "Python", "NumPy", "MATLAB", "LaTeX"
