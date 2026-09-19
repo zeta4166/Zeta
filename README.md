@@ -12,8 +12,6 @@ from dataclasses import dataclass, field
 @dataclass
 class Zeta:
     job: str = "Engineer"
-    pronouns: str = "He/Him"
-    passion: str = "Synchrotron science"
     favorite_fields: list = field(default_factory=lambda: [
         "X-ray Diffraction", "Spectroscopy", "Condensed Matter", "Materials Science"
     ])
@@ -23,13 +21,12 @@ class Zeta:
     favorite_language: list = field(default_factory=lambda: [
         "Python", "C", "JavaScript"
     ])
-    favorite_equation: str = "∇·E = ρ/ε₀"
 
     def state(self, t):
-        # Every system evolves; I just try to write down the Hamiltonian.
+        # Sit and drink pennyroyal tea
         return self
 
-# As a kid, I was taught that the universe runs on math. I never got over it.
+# I was an ordinary person who studied hard. There are no miracle people.
 ```
 
 ## What I'm working on
