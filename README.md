@@ -29,6 +29,6 @@ class Zeta:
 ## What I'm working on
 
 - Numerical simulations of physical systems
-- Engineering projects with a healthy dose of physics
+- Engineering projects with applied physics
 - In-situ characterization
 
