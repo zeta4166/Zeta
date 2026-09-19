@@ -2,7 +2,7 @@
 
 Synchrotron science and materials engineering.
 
-![BLAK'AT](https://makeagif.com/gif/crystal-castles-kept-U5flek)
+![BLAK'AT](assets/blakat.gif)
 
 More about me...
 
