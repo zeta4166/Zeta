@@ -1,8 +1,8 @@
-# Hi. I'm Zeta.
+# Zeta
 
 Synchrotron science and materials engineering.
 
-![BLAK'AT](assets/blakat.gif)
+![BLAK'AT](https://media1.tenor.com/m/WeGMUYxXy3gAAAAd/crystal-castles-kept.gif)
 
 More about me...
 
@@ -16,15 +16,12 @@ class Zeta:
         "X-ray Diffraction", "Spectroscopy", "Condensed Matter", "Materials Science"
     ])
     main_tools: list = field(default_factory=lambda: [
-        "Python", "NumPy", "MATLAB", "LaTeX"
+        "Python", "NumPy", "MATLAB", "VESTA"
     ])
     favorite_language: list = field(default_factory=lambda: [
         "Python", "C", "JavaScript"
     ])
 
-    def state(self, t):
-        # Sit and drink pennyroyal tea
-        return self
 
 # I was an ordinary person who studied hard. There are no miracle people.
 ```
@@ -32,11 +29,5 @@ class Zeta:
 ## What I'm working on
 
 - Numerical simulations of physical systems
-- Engineering projects with a healthy dose of physics
-- Learning something new about the universe every day
-
-## Fun fact
-
-> "If you can't explain it simply, you don't understand it well enough."
-
-I take that as a challenge.
+- Engineering projects with applied physics
+- In-situ characterization
